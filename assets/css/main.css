@@ -332,6 +332,10 @@ input, select, textarea {
 
 /* Row */
 
+	.hidden-item {
+		display: none;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -612,6 +616,10 @@ input, select, textarea {
 
 				.row.aln-bottom {
 					align-items: flex-end;
+				}
+
+				.row > .justify-content-center-xlarge {
+					margin: auto;
 				}
 
 				.row > .imp-xlarge {
@@ -1063,7 +1071,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 950px) {
 
 			.row {
 				display: flex;
@@ -1102,6 +1110,14 @@ input, select, textarea {
 
 				.row.aln-bottom {
 					align-items: flex-end;
+				}
+
+				.row > .off-top-medium {
+					margin-top: 20px;
+				}
+
+				.row > .aln-center-medium {
+					text-align: center;
 				}
 
 				.row > .imp-medium {
@@ -1309,6 +1325,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.hidden-item {
+				display: inline;
+			}
 
 			.row {
 				display: flex;
