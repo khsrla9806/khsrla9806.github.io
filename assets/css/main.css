@@ -3107,7 +3107,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 7em 5em 0em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3152,7 +3152,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 6em 4em 0em 4em ;
 				}
 
 		}
@@ -3164,7 +3164,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 5em 3em 0em 3em ;
 				}
 
 		}
@@ -3185,7 +3185,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 4em 2em 0em 2em ;
 				}
 
 					#header.alt h1 {
@@ -3201,7 +3201,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 4em 1.5em 0em 1.5em ;
 				}
 
 		}
@@ -3602,7 +3602,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3629,7 +3629,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				padding: 3em 4em 2em 4em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3642,7 +3642,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#main > .main {
-				padding: 4em 3em 2em 3em ;
+				padding: 3em 3em 2em 3em ;
 			}
 
 				#main > .main > .image.main:first-child {
